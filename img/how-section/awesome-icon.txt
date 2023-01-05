@@ -1,0 +1,20 @@
+# Flash Icon
+<i class="fa-solid fa-bolt-lightning"></i>
+
+#Home
+<i class="fa-solid fa-house-chimney"></i>
+
+#Link
+<i class="fa-solid fa-link"></i>
+
+#Alarm
+<i class="fa-solid fa-bell"></i>
+
+#Gear
+<i class="fa-solid fa-gear"></i>
+
+#Lock
+<i class="fa-solid fa-lock"></i>'
+
+#check
+<i class="fa-solid fa-circle-check"></i>

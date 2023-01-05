@@ -1,0 +1,17 @@
+# Flash Icon
+<ion-icon name="flash"></ion-icon>
+
+#Home
+<ion-icon name="home"></ion-icon>
+
+#Link
+<ion-icon name="link"></ion-icon>
+
+#Alarm
+<ion-icon name="alarm"></ion-icon>
+
+#Gear
+<ion-icon name="cog"></ion-icon>
+
+#Lock
+<ion-icon name="lock-closed"></ion-icon>

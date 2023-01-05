@@ -1,0 +1,5 @@
+#apple logo
+<i class="fa-brands fa-apple"></i>
+
+#android
+<i class="fa-brands fa-google-play"></i>

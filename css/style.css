@@ -1,0 +1,56 @@
+/* ***************************** */
+/* HEADER */
+/* ***************************** */
+.header {
+  background-color: #eef1f6;
+  padding: 0 9.6rem;
+  height: 9.6rem;
+  display: flex;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.nav {
+  width: 100%;
+}
+.nav-list-container {
+  list-style: none;
+  display: flex;
+  gap: 4.8rem;
+  font-size: 1.6rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  color: #0e1133;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #565870;
+}
+
+.mobile-nav {
+  display: none;
+}
+.nav-list:last-child {
+  margin-left: auto;
+}
+
+/* Get Started Button */
+.nav-list:last-child .nav-link:link,
+.nav-list:last-child .nav-link:visited {
+  background-color: #ff3e66;
+  color: #fff;
+  padding: 1rem 1.6rem;
+  border-radius: 50px;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+.nav-list:last-child .nav-link:link,
+.nav-list:last-child .nav-link:visited {
+  background-color: #ff3e66;
+  color: #fff;
+  padding: 1rem 1.6rem;
+  border-radius: 50px;
+}

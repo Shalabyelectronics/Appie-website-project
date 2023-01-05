@@ -1,0 +1,11 @@
+#facebook
+<i class="fa-brands fa-facebook-f"></i>
+
+#twitter
+<i class="fa-brands fa-twitter"></i>
+
+#pinterest
+<i class="fa-brands fa-pinterest-p"></i>
+
+#linked-in
+<i class="fa-brands fa-linkedin-in"></i>
