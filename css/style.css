@@ -164,12 +164,13 @@
 /* HERO SECTION */
 /* ***************************** */
 .section_how {
+  margin-bottom: 12.8rem;
 }
 .header-how {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-bottom: 6.4rem;
+  margin-bottom: 4.8rem;
 }
 
 .how-description {
@@ -193,6 +194,7 @@
   padding: 1.6rem;
   border-radius: 11px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.075);
+  margin-bottom: 6.4rem;
 }
 .icon-feature-box {
   display: flex;
@@ -225,13 +227,14 @@
   font-size: 1.6rem;
   color: #fff;
 }
-
+.marketing-title,
 .title-feature {
   font-size: 2rem;
   font-weight: 700;
-  color: #333;
+  color: #0f1234;
   margin-bottom: 0.8rem;
 }
+.marketing-description,
 .description-feature {
   font-size: 1.6rem;
   color: #777;
@@ -254,3 +257,56 @@
   font-weight: 700;
   color: #777;
 }
+/* part 2 from how section */
+.how-marketing {
+  background-color: #f0f1f7;
+  padding: 5.2rem 6.4rem 0 6.4rem;
+  height: 50rem;
+  overflow: hidden;
+  margin-bottom: 6.4rem;
+  grid-template-columns: 1fr 2fr;
+  gap: 2.4rem;
+}
+.marketing-img-box {
+  position: relative;
+}
+.marketing-img {
+  position: absolute;
+}
+.marketing-text-box {
+  padding-top: 3.2rem;
+  align-self: center;
+}
+.marketing-tag {
+  display: block;
+  color: #ea4d89;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 2.4rem;
+}
+
+.marketin-main-description {
+  color: #777;
+  margin-bottom: 4.8rem;
+}
+.marketing-feature {
+  display: flex;
+  gap: 1.6rem;
+}
+.marketing-icon-box {
+  width: 2.4rem;
+  height: 2.4rem;
+  background-color: #32c36a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.marketing-icon {
+  color: #fff;
+  font-size: 1.2rem;
+}
+/* *************** */
+/* DESIGN SECTION */
+/* *************** */
