@@ -169,8 +169,88 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  margin-bottom: 6.4rem;
 }
 
 .how-description {
+  color: #777;
+}
+.how-btn {
+  border: 1px solid #cccaca;
+  transition: all0.3;
+}
+.how-btn:hover {
+  border: 1px solid #cccaca;
+  color: #777;
+  box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.05);
+}
+.how-features {
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+.how-feature {
+  padding: 1.6rem;
+  border-radius: 11px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.075);
+}
+.icon-feature-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5.2rem;
+  height: 5.2rem;
+  border-radius: 50%;
+  margin-bottom: 2.4rem;
+}
+.icon-feature-box.bolt {
+  background-color: #2facfc;
+}
+.icon-feature-box.house {
+  background-color: #ea4d89;
+}
+.icon-feature-box.link {
+  background-color: #3679ff;
+}
+.icon-feature-box.bell {
+  background-color: #f67842;
+}
+.icon-feature-box.gear {
+  background-color: #6b88f7;
+}
+.icon-feature-box.lock {
+  background-color: #3bb094;
+}
+.icon-feature {
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.title-feature {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.8rem;
+}
+.description-feature {
+  font-size: 1.6rem;
+  color: #777;
+  line-height: 1.6;
+  margin-bottom: 1.6rem;
+}
+.how-feature a:link,
+.how-feature a:visited {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #333;
+  transition: all 0.3s;
+}
+
+.how-feature a:hover,
+.how-feature a:active {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
   color: #777;
 }

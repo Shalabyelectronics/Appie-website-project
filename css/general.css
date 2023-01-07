@@ -150,4 +150,5 @@ input:focus {
   font-size: 1.6rem;
   font-weight: 700;
   border-radius: 20px;
+  cursor: pointer;
 }
