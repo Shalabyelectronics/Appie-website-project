@@ -40,9 +40,10 @@
 /* Get Started Button */
 .nav-list:last-child .nav-link:link,
 .nav-list:last-child .nav-link:visited {
+  font-size: 1.8rem;
   background-color: #ff3e66;
   color: #fff;
-  padding: 1rem 1.6rem;
+  padding: 3rem 3.2rem;
   border-radius: 50px;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
 }
@@ -53,4 +54,123 @@
   color: #fff;
   padding: 1rem 1.6rem;
   border-radius: 50px;
+}
+
+.nav-list:last-child .nav-link:hover,
+.nav-list:last-child .nav-link:active {
+  background-color: #ff7894;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+/* ***************************** */
+/* HERO SECTION */
+/* ***************************** */
+.section_hero {
+  background-color: #eef1f6;
+  padding-left: 9.6rem;
+  padding-top: 9.6rem;
+  margin-bottom: 12.8rem;
+}
+.hero {
+  grid-template-columns: 1fr 1fr;
+}
+.hero-text-box {
+  /* padding-right: 1rem; */
+  align-self: center;
+  padding: 1.6rem;
+}
+.hero-description {
+  margin-bottom: 4.8rem;
+  color: #777;
+}
+.hero-image-box {
+  align-self: start;
+}
+.hero-img {
+  width: 100%;
+}
+/* SUBSCRIPTION INPUT  */
+.subscription-box {
+  display: inline-block;
+  background-color: #fff;
+  padding: 0.8rem 1.6rem;
+  border-radius: 2.4rem;
+  margin-bottom: 4.8rem;
+  border-left: 3px solid #ff3e66;
+  position: relative;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.075);
+}
+.subscription-container {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  background-color: #fff;
+  border-radius: 2.4rem;
+}
+.email-icon,
+.arrow-icon {
+  font-size: 1.6rem;
+}
+.subscription-btn .arrow-icon {
+  color: #ff3e66;
+}
+.subscription-btn .arrow-icon:hover {
+  color: #ff7894;
+}
+.input-mail {
+  display: block;
+  border: none;
+  background-color: #fff;
+  padding: 0.8rem 0.5rem;
+  border-radius: 2.4rem;
+  font-size: 1.6rem;
+  /* font-family: inherit; */
+}
+
+/* USERS DOWNLOADS  */
+.app-users {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  /* gap: 0.1rem; */
+}
+.users-img-box {
+  display: flex;
+}
+.user-img {
+  display: block;
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 3px solid #fff;
+}
+.user-img:last-child {
+  margin: 0;
+}
+.users-text-box {
+  font-weight: 500;
+  line-height: 1.1;
+}
+.users-feedback-number {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+.feedback-text {
+  font-size: 1.2rem;
+}
+
+/* ***************************** */
+/* HERO SECTION */
+/* ***************************** */
+.section_how {
+}
+.header-how {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.how-description {
+  color: #777;
 }

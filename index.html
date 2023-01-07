@@ -10,8 +10,12 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/queries.css" />
     <title>Appie &mdash; More than an app</title>
   </head>
@@ -47,9 +51,90 @@
     </header>
     <main>
       <section class="section_hero">
-        <div class="container grid grid--2">
-          <div class="hero-text">Text</div>
-          <div class="hero-image">Image</div>
+        <div class="hero grid grid--2">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Ready to launch your app in one,
+              <span class="strong">Application</span>
+            </h1>
+            <p class="description hero-description">
+              Find the best application in the appie.
+            </p>
+            <!-- ********** SUBSCRIPTION START ********* -->
+            <div class="subscription-box">
+              <div class="subscription-container">
+                <i class="email-icon fa-regular fa-envelope"></i>
+                <input
+                  class="input-mail"
+                  type="email"
+                  placeholder="info@appie.com"
+                />
+                <a class="subscription-btn" href="#">
+                  <i class="arrow-icon fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+            <!-- ********** SUBSCRIPTION END ********* -->
+            <!-- ********** DOWNLOADS START ********* -->
+            <div class="app-users">
+              <div class="users-img-box">
+                <img
+                  class="user-img"
+                  src="./img/people/customer-1.jpg"
+                  alt="users images"
+                />
+                <img
+                  class="user-img"
+                  src="./img/people/customer-2.jpg"
+                  alt="users images"
+                />
+                <img
+                  class="user-img"
+                  src="./img/people/customer-3.jpg"
+                  alt="users images"
+                />
+                <img
+                  class="user-img"
+                  src="./img/people/customer-4.jpg"
+                  alt="users images"
+                />
+              </div>
+              <div class="users-text-box">
+                <p class="users-feedback-number">30K</p>
+                <p class="feedback-text">Feedback</p>
+              </div>
+            </div>
+            <!-- ********** DOWNLOADS END ********* -->
+          </div>
+          <div class="hero-image-box">
+            <img class="hero-img" src="./img/hero.png" alt="Try Appie app" />
+          </div>
+        </div>
+      </section>
+      <section class="section-how">
+        <div class="container">
+          <div class="header-how">
+            <div class="how-text">
+              <h2 class="heading-secondary">How does it work</h2>
+              <p class="description how-description">
+                The full monty spiffing good time no biggie cack grub fantastic.
+              </p>
+            </div>
+            <button class="btn how-btn">
+              View all Features
+              <span>
+                <i class="arrow-icon fa-solid fa-arrow-right"></i>
+              </span>
+            </button>
+          </div>
+          <div class="how-features grid grid--3">
+            <div class="how-feature"></div>
+            <div class="how-feature">2</div>
+            <div class="how-feature">3</div>
+            <div class="how-feature">4</div>
+            <div class="how-feature">5</div>
+            <div class="how-feature">6</div>
+          </div>
         </div>
       </section>
     </main>
