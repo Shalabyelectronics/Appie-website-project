@@ -109,9 +109,9 @@ html {
 
 .container {
   /* 1140px we can use it also */
-  /* max-width: 120rem; */
-  /* margin: 0 auto; */
-  padding: 0 9.6rem;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
   /* background-color: #555; */
 }
 

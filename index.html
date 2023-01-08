@@ -20,97 +20,110 @@
     <title>Appie &mdash; More than an app</title>
   </head>
   <body>
-    <header class="header">
-      <a class="logo" href="#">
-        <img src="./img/logo.png" alt="Appie logo" />
-      </a>
-      <nav class="nav">
-        <ul class="nav-list-container">
-          <li class="nav-list">
-            <a class="link nav-link" href="#">How it works</a>
-          </li>
-          <li class="nav-list">
-            <a class="link nav-link" href="#">Downloads</a>
-          </li>
-          <li class="nav-list">
-            <a class="link nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-list">
-            <a class="link nav-link" href="#">Testimonials</a>
-          </li>
-          <li class="nav-list">
-            <a class="link nav-link" href="#">Get Started</a>
-          </li>
-        </ul>
-      </nav>
-      <!-- Mobile Navigation -->
-      <button class="mobile-nav">
-        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
-        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
-      </button>
-    </header>
-    <main>
+    <main class="header-hero-section">
+      <header class="header">
+        <div class="header-box container">
+          <a class="logo" href="#">
+            <img src="./img/logo.png" alt="Appie logo" />
+          </a>
+          <nav class="nav">
+            <ul class="nav-list-container">
+              <li class="nav-list">
+                <a class="link nav-link" href="#">How it works</a>
+              </li>
+              <li class="nav-list">
+                <a class="link nav-link" href="#">Downloads</a>
+              </li>
+              <li class="nav-list">
+                <a class="link nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-list">
+                <a class="link nav-link" href="#">Testimonials</a>
+              </li>
+              <li class="nav-list">
+                <a class="link nav-link" href="#">Get Started</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- Mobile Navigation -->
+          <button class="mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
+        </div>
+      </header>
+      <!-- ************ -->
+      <!-- HERO SECTION -->
+      <!-- ************ -->
       <section class="section_hero">
         <div class="hero grid grid--2">
           <div class="hero-text-box">
-            <h1 class="heading-primary">
-              Ready to launch your app in one,
-              <span class="strong">Application</span>
-            </h1>
-            <p class="main-description hero-description">
-              Find the best application in the appie.
-            </p>
-            <!-- ********** SUBSCRIPTION START ********* -->
-            <div class="subscription-box">
-              <div class="subscription-container">
-                <i class="email-icon fa-regular fa-envelope"></i>
-                <input
-                  class="input-mail"
-                  type="email"
-                  placeholder="info@appie.com"
-                />
-                <a class="subscription-btn" href="#">
-                  <i class="arrow-icon fa-solid fa-arrow-right"></i>
-                </a>
+            <div class="hero-text-container">
+              <h1 class="heading-primary">
+                Ready to launch your app in one,
+                <span class="strong">Application</span>
+              </h1>
+              <p class="main-description hero-description">
+                Find the best application in the appie.
+              </p>
+
+              <!-- ********** SUBSCRIPTION START ********* -->
+              <div class="subscription-box">
+                <div class="subscription-container">
+                  <i class="email-icon fa-regular fa-envelope"></i>
+                  <input
+                    class="input-mail"
+                    type="email"
+                    placeholder="info@appie.com"
+                  />
+                  <a class="subscription-btn" href="#">
+                    <i class="arrow-icon fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
               </div>
+              <!-- ********** SUBSCRIPTION END ********* -->
+              <!-- ********** DOWNLOADS START ********* -->
+              <div class="app-users">
+                <div class="users-img-box">
+                  <img
+                    class="user-img"
+                    src="./img/people/customer-1.jpg"
+                    alt="users images"
+                  />
+                  <img
+                    class="user-img"
+                    src="./img/people/customer-2.jpg"
+                    alt="users images"
+                  />
+                  <img
+                    class="user-img"
+                    src="./img/people/customer-3.jpg"
+                    alt="users images"
+                  />
+                  <img
+                    class="user-img"
+                    src="./img/people/customer-4.jpg"
+                    alt="users images"
+                  />
+                </div>
+                <div class="users-text-box">
+                  <p class="users-feedback-number">30K</p>
+                  <p class="feedback-text">Feedback</p>
+                </div>
+              </div>
+              <!-- ********** DOWNLOADS END ********* -->
             </div>
-            <!-- ********** SUBSCRIPTION END ********* -->
-            <!-- ********** DOWNLOADS START ********* -->
-            <div class="app-users">
-              <div class="users-img-box">
-                <img
-                  class="user-img"
-                  src="./img/people/customer-1.jpg"
-                  alt="users images"
-                />
-                <img
-                  class="user-img"
-                  src="./img/people/customer-2.jpg"
-                  alt="users images"
-                />
-                <img
-                  class="user-img"
-                  src="./img/people/customer-3.jpg"
-                  alt="users images"
-                />
-                <img
-                  class="user-img"
-                  src="./img/people/customer-4.jpg"
-                  alt="users images"
-                />
-              </div>
-              <div class="users-text-box">
-                <p class="users-feedback-number">30K</p>
-                <p class="feedback-text">Feedback</p>
-              </div>
-            </div>
-            <!-- ********** DOWNLOADS END ********* -->
           </div>
           <div class="hero-image-box">
             <img class="hero-img" src="./img/hero.png" alt="Try Appie app" />
           </div>
         </div>
       </section>
+    </main>
+    <main>
+      <!-- ************ -->
+      <!-- HOW SECTION -->
+      <!-- ************ -->
       <section class="section-how">
         <div class="container">
           <div class="header-how">
@@ -346,6 +359,42 @@
             </div>
             <p class="data-result"><span class="strong">45</span>K+</p>
             <p class="data-description sub-description">Active Installation</p>
+          </div>
+        </div>
+        <div class="statistics-media grid grid--2">
+          <div class="statistics-video">
+            <img
+              class="statistics-video-thumb"
+              src="./img/statistics-section/video-thumb-1.jpg"
+              alt="Appie introduction video"
+            />
+          </div>
+
+          <div class="statistics-image-slider">
+            <img
+              class="statistics-image"
+              src="./img/statistics-section/video-slide-1.jpg"
+              alt="Appie face design"
+            />
+          </div>
+          <div class="statistics-media-text">
+            <h2 class="heading-secondary strong">
+              Watch the two-minute video to learn how.
+            </h2>
+            <p class="statistics-media-description main-description">
+              The wireless cheesed on your bike mate zonked a load of old tosh
+              hunky dory it's all gone to pot haggle william car boot pear
+              shaped geeza.
+            </p>
+            <button class="btn">Get started</button>
+          </div>
+          <div class="statistics-slid-control">
+            <button class="slide-btn">
+              <i class="arrow-icon fa-solid fa-arrow-left"></i>
+            </button>
+            <button class="slide-btn">
+              <i class="arrow-icon fa-solid fa-arrow-right"></i>
+            </button>
           </div>
         </div>
       </section>

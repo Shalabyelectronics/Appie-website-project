@@ -1,9 +1,19 @@
 /* ***************************** */
+/* HEADER and hero section */
+/* ***************************** */
+.header-hero-section {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  margin-bottom: 12.8rem;
+}
+/* ***************************** */
 /* HEADER */
 /* ***************************** */
 .header {
   background-color: #eef1f6;
-  padding: 0 9.6rem;
+}
+.header-box {
   height: 9.6rem;
   display: flex;
   gap: 9.6rem;
@@ -67,25 +77,31 @@
 /* ***************************** */
 .section_hero {
   background-color: #eef1f6;
-  padding-left: 9.6rem;
+  /* padding-left: 9.6rem; */
   padding-top: 9.6rem;
-  margin-bottom: 12.8rem;
+
+  /* height: 100vh; */
 }
 .hero {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 30fr 70fr;
+  max-width: 150rem;
+  margin-left: auto;
+  /* background-color: #2facfc; */
+  /* gap: 9.6rem; */
 }
 .hero-text-box {
   /* padding-right: 1rem; */
-  align-self: center;
-  padding: 1.6rem;
+  /* align-self: center; */
+  padding: 3.2rem 0;
+}
+.hero-text-container {
+  /* background-color: #32c36a; */
 }
 .hero-description {
   margin-bottom: 4.8rem;
   color: #0e1133;
 }
-.hero-image-box {
-  align-self: start;
-}
+
 .hero-img {
   width: 100%;
 }
@@ -357,12 +373,17 @@
 /* *************** */
 /* STATISTICS SECTION */
 /* *************** */
-.statistics-heading {
-  margin-bottom: 12.8rem;
-}
+
 .statistics-data {
   display: flex;
   justify-content: space-around;
+}
+.statistics-media {
+  gap: 3.2rem;
+  /* justify-content: center; */
+}
+.statistics-heading {
+  margin-bottom: 12.8rem;
 }
 .data-box {
   display: flex;
@@ -377,4 +398,40 @@
 }
 .statistics-data {
   margin-bottom: 10rem;
+}
+.statistics-video,
+.statistics-image-box {
+  margin-bottom: 2.4rem;
+}
+.statistics-video-thumb {
+  /* width: 100%;
+  height: 100%; */
+}
+
+.statistics-image {
+  /* display: block;
+  height: 100%; */
+  /* margin-left: auto; */
+}
+.statistics-image-box {
+}
+.statistics-media-description {
+  margin-bottom: 3.2rem;
+}
+.slide-btn {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #777;
+  border: 1px solid #777;
+}
+.slide-btn .arrow-icon {
+  font-size: 2rem;
+  color: #333;
+}
+.statistics-slid-control {
+  display: flex;
+  gap: 0.8rem;
+  justify-content: flex-end;
 }
