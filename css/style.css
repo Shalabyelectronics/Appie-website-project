@@ -81,7 +81,7 @@
 }
 .hero-description {
   margin-bottom: 4.8rem;
-  color: #777;
+  color: #0e1133;
 }
 .hero-image-box {
   align-self: start;
@@ -163,8 +163,8 @@
 /* ***************************** */
 /* HERO SECTION */
 /* ***************************** */
-.section_how {
-  margin-bottom: 12.8rem;
+.section-how {
+  margin-bottom: 19.6rem;
 }
 .header-how {
   display: flex;
@@ -227,18 +227,8 @@
   font-size: 1.6rem;
   color: #fff;
 }
-.marketing-title,
-.title-feature {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #0f1234;
-  margin-bottom: 0.8rem;
-}
-.marketing-description,
+
 .description-feature {
-  font-size: 1.6rem;
-  color: #777;
-  line-height: 1.6;
   margin-bottom: 1.6rem;
 }
 .how-feature a:link,
@@ -263,7 +253,6 @@
   padding: 5.2rem 6.4rem 0 6.4rem;
   height: 50rem;
   overflow: hidden;
-  margin-bottom: 6.4rem;
   grid-template-columns: 1fr 2fr;
   gap: 2.4rem;
 }
@@ -310,3 +299,82 @@
 /* *************** */
 /* DESIGN SECTION */
 /* *************** */
+.design-section {
+  background-color: #0e1133;
+  margin-bottom: 19.6rem;
+}
+.design-header {
+  padding: 9.6rem 12.8rem;
+}
+.design-title,
+.design-heading {
+  text-align: center;
+  color: #fff;
+}
+.design-heading {
+  margin-bottom: 9.6rem;
+}
+.design-content {
+  align-items: center;
+  justify-items: center;
+}
+.design-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  margin-left: auto;
+}
+.design-box {
+  display: flex;
+  gap: 1.8rem;
+  padding: 3.2rem 5.2rem;
+  box-shadow: 0 0 3px rgba(255, 255, 255, 0.261);
+  border-radius: 11px;
+}
+.dot-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+}
+.pink-red {
+  background: radial-gradient(#ff3e66, #ff5173);
+  box-shadow: 0 0 1px 5px rgba(255, 62, 101, 0.517);
+}
+.blue {
+  background: radial-gradient(#2eacfc, #50b9fa);
+  box-shadow: 0 0 1px 5px rgba(44, 169, 247, 0.501);
+}
+.green {
+  background: radial-gradient(#33c956, #63cd7c);
+  box-shadow: 0 0 1px 5px rgba(51, 201, 86, 0.502);
+}
+.design-sub-title {
+  color: #fff;
+}
+.design-sub-description {
+  color: #b1b0b0;
+}
+/* *************** */
+/* STATISTICS SECTION */
+/* *************** */
+.statistics-heading {
+  margin-bottom: 12.8rem;
+}
+.statistics-data {
+  display: flex;
+  justify-content: space-around;
+}
+.data-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3.2rem 4.8rem;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.255);
+}
+.data-result {
+  font-size: 4em;
+}
+.statistics-data {
+  margin-bottom: 10rem;
+}
