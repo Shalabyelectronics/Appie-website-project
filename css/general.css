@@ -148,7 +148,9 @@ html {
 input:focus {
   outline: none;
 }
-
+.break {
+  display: block;
+}
 .btn {
   /* font-family: inherit; */
   background: none;

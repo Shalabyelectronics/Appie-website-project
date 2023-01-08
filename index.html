@@ -22,7 +22,7 @@
   <body>
     <main class="header-hero-section">
       <header class="header">
-        <div class="header-box container">
+        <div class="header-box">
           <a class="logo" href="#">
             <img src="./img/logo.png" alt="Appie logo" />
           </a>
@@ -208,8 +208,9 @@
               <a href="#">Read more &rarr;</a>
             </div>
           </div>
+          <!-- **************** -->
           <!-- How Marketing Work -->
-          <div class="how-marketing grid grid--2">
+          <div class="how-marketing container grid grid--2">
             <div class="marketing-img-box">
               <img
                 class="marketing-img"
@@ -270,7 +271,7 @@
             <div class="design-text-box">
               <div class="design-box">
                 <div class="dot-icon pink-red"></div>
-                <div class="design-text-box">
+                <div class="design-text">
                   <p class="title design-sub-title">Well Integrated</p>
                   <p class="sub-description design-sub-description">
                     The bee's knees chancer car boot absolutely.
@@ -279,7 +280,7 @@
               </div>
               <div class="design-box">
                 <div class="dot-icon blue"></div>
-                <div class="design-text-box">
+                <div class="design-text">
                   <p class="title design-sub-title">Clean and modern Design</p>
                   <p class="sub-description design-sub-description">
                     The bee's knees chancer car boot absolutely.
@@ -288,7 +289,7 @@
               </div>
               <div class="design-box">
                 <div class="dot-icon green"></div>
-                <div class="design-text-box">
+                <div class="design-text">
                   <p class="title design-sub-title">Light and dark mode</p>
                   <p class="sub-description design-sub-description">
                     The bee's knees chancer car boot absolutely.
@@ -363,11 +364,20 @@
         </div>
         <div class="statistics-media grid grid--2">
           <div class="statistics-video">
-            <img
-              class="statistics-video-thumb"
-              src="./img/statistics-section/video-thumb-1.jpg"
-              alt="Appie introduction video"
-            />
+            <div class="statistics-video-thumb-box">
+              <img
+                class="statistics-video-thumb"
+                src="./img/statistics-section/video-thumb-1.jpg"
+                alt="Appie introduction video"
+              />
+              <div class="play-icon-bottom-border">
+                <div class="play-icon-border">
+                  <div class="play-icon-box">
+                    <i class="play-icon fa-solid fa-play"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div class="statistics-image-slider">
@@ -395,6 +405,52 @@
             <button class="slide-btn">
               <i class="arrow-icon fa-solid fa-arrow-right"></i>
             </button>
+          </div>
+        </div>
+      </section>
+      <!-- ************************************************ -->
+      <!-- DOWNLOADS Section -->
+      <section class="downloads-section">
+        <div class="container">
+          <div class="downloads-box">
+            <div class="downloads-text">
+              <span class="marketing-tag heading-tertiary"
+                >Download Our App</span
+              >
+              <h2 class="marketing-heading heading-secondary strong">
+                App is available
+                <span class="break">for free on app store</span>
+              </h2>
+              <p class="marketin-main-description main-description">
+                Jolly good quaint james bond victoria sponge happy days cras
+                arse over blatant.
+              </p>
+            </div>
+            <div class="downloads-appie-icon">
+              <a class="appie-store-apple" href="#">
+                <div class="store-logo-box">
+                  <div class="store-icon">
+                    <i class="logo-icon fa-brands fa-apple"></i>
+                  </div>
+                  <div class="store-text">
+                    <p>Download for</p>
+                    <p class="strong">iOS</p>
+                  </div>
+                </div>
+              </a>
+              <!-- Start here -->
+              <a class="appie-store-android" href="#">
+                <div class="store-logo-box">
+                  <div class="store-icon">
+                    <i class="logo-icon fa-brands fa-google-play"></i>
+                  </div>
+                  <div class="store-text">
+                    <p>Download for</p>
+                    <p class="strong">Android</p>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </section>
