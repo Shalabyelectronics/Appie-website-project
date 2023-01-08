@@ -495,6 +495,7 @@
 .downloads-section {
   background-color: #eef1f6;
   padding: 16.8rem 9.6rem;
+  margin: 19.6rem;
 }
 .downloads-box {
   max-width: 45%;
@@ -548,4 +549,47 @@
 }
 .store-text p:first-child {
   font-size: 0.8rem;
+}
+
+/* *************** */
+/* PRICING SECTION */
+/* *************** */
+.section-pricing {
+  margin-bottom: 19.6rem;
+}
+.pricing-header {
+  text-align: center;
+}
+.pricing-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4.8rem;
+}
+.pricing-description {
+  margin-bottom: 6.4rem;
+}
+.pricing-plan-duration {
+  font-size: 1.6rem;
+  font-weight: 700;
+  display: flex;
+  max-width: 19.6rem;
+  gap: 3.2rem;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid rgba(119, 119, 119, 0.539);
+  border-radius: 50px;
+}
+.monthly-option {
+  margin: 0.2rem;
+}
+.monthly-option .duration-text {
+  color: #fff;
+  background-color: #ea4d89;
+  border-radius: 50px;
+  padding: 1rem 2rem;
+}
+.yearly-option .duration-text {
+  padding-right: 2rem;
+  color: #777;
 }
