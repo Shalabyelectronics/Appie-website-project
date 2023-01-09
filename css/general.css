@@ -28,7 +28,7 @@ we used 18px too much so we can consider it our standard
 
 - body: 
 - primary : #0e1133 - #262947
-- Tiints : #eef1f6 - #f0f1f7
+- Tiints : #eef1f6 - #f0f1f7 - #eef4fe- #5c8ff7
 - Shades :
  # 
  #
@@ -154,11 +154,12 @@ input:focus {
 .btn {
   /* font-family: inherit; */
   background: none;
-  color: #333;
-  padding: 0.8rem 1.6rem;
+  color: #0f1234;
+  padding: 1.6rem 3.2rem;
   font-size: 1.6rem;
-  font-weight: 700;
-  border-radius: 20px;
+  font-weight: 500;
+  border-radius: 30px;
+  border: 1px solid #cccaca;
   cursor: pointer;
 }
 .title {
