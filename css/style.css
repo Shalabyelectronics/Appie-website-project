@@ -398,7 +398,7 @@
   justify-content: center;
   align-items: center;
   padding: 3.2rem 4.8rem;
-  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.255);
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.075);
 }
 .data-result {
   font-size: 4em;
@@ -693,7 +693,7 @@
 /* TESTIMONIAL SECTION */
 /* *************** */
 .section-testimonial {
-  margin-bottom: 19.6rem;
+  margin-bottom: 30rem;
 }
 
 .testimonial-box {
@@ -766,4 +766,43 @@
 }
 .reviews-slid-control .slide-btn .arrow-icon {
   color: #fff;
+}
+/* *************** */
+/* FEATURE-IN SECTION */
+/* *************** */
+.section-feature-in {
+  margin-bottom: 30rem;
+}
+.feature-in-logos-box {
+  /* background-color: #32c36a; */
+
+  /* Try with flex */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4.8rem;
+}
+.feature-in-row:first-child {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  justify-items: center;
+  gap: 3.2rem;
+}
+.feature-in-row:last-child {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+  gap: 6.4rem;
+}
+.feature-in-logo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  width: 15rem;
+  height: 15rem;
+  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.1);
 }
