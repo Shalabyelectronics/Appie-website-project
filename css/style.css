@@ -34,6 +34,7 @@
 .nav-link:link,
 .nav-link:visited {
   color: #0e1133;
+  font-weight: 700;
 }
 
 .nav-link:hover,
@@ -194,7 +195,7 @@
   color: #777;
 }
 .how-btn {
-  transition: all0.3;
+  transition: all 0.3s;
 }
 .how-btn:hover {
   border: 1px solid #cccaca;
@@ -216,6 +217,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: 700;
   width: 5.2rem;
   height: 5.2rem;
   border-radius: 50%;
@@ -227,7 +229,7 @@
 .icon-feature-box.house {
   background-color: #ea4d89;
 }
-.icon-feature-box.link {
+.icon-feature-box.link-icon {
   background-color: #3679ff;
 }
 .icon-feature-box.bell {
@@ -771,7 +773,7 @@
 /* FEATURE-IN SECTION */
 /* *************** */
 .section-feature-in {
-  margin-bottom: 30rem;
+  margin-bottom: 15rem;
 }
 .feature-in-logos-box {
   /* background-color: #32c36a; */

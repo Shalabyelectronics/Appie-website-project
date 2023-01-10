@@ -42,7 +42,7 @@ We used #535359 for sub-description
 #333
 #6E6E6E (Lightest grey allowed on #fdf2e9)
 #ddd 
-- stars colors #ffb848
+- stars colors #ffb848   
 
 
 lighter than #fff
@@ -101,7 +101,7 @@ html {
 .link:link,
 .link:visited {
   text-decoration: none;
-  font-weight: 700;
+  transition: all 0.3s;
 }
 
 .link:hover,
@@ -169,3 +169,65 @@ input:focus {
   color: #0f1234;
   margin-bottom: 0.8rem;
 }
+/* ********** */
+/* FOOTER */
+/* ********** */
+.footer {
+  background-color: #eef1f6;
+  padding: 8.5rem 0 6.4rem 0;
+}
+.grid-footer {
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+}
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+.wordpress-text {
+  color: #0f1234;
+  margin-bottom: 3.2rem;
+}
+.read-more-box {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.read-more:link,
+.read-more:visited {
+  display: block;
+  margin-bottom: 3.2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #0f1234;
+}
+.read-more:hover,
+.read-more:active {
+  color: #575971;
+}
+
+.socail-box {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.socail-box a:link,
+.socail-box a:visited {
+  display: block;
+  padding: 1.6rem;
+  border-radius: 11px;
+  font-size: 1.6rem;
+  color: #0f1234;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.075);
+}
+.socail-box a:hover,
+.socail-box a:active {
+  color: #575971;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+/* .social-icon {
+  font-size: 1.6rem;
+  color: #0f1234;
+} */
