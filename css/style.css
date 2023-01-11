@@ -1,20 +1,4 @@
 /* ***************************** */
-/* HEADER and hero section */
-/* ***************************** */
-.header-hero-section {
-  display: grid;
-  grid-template-columns: 1fr;
-
-  margin-bottom: 12.8rem;
-}
-
-/* Header Icon */
-.chevron-down-icon {
-  font-family: "Font Awesome 5 Free";
-  font-size: 0.8rem;
-  font-weight: 900;
-}
-/* ***************************** */
 /* HERO SECTION */
 /* ***************************** */
 .section-hero {
@@ -22,6 +6,7 @@
   /* padding-left: 9.6rem; */
   padding-top: 9.6rem;
   padding-left: 4.8rem;
+  margin-bottom: 12.8rem;
   display: flex;
   justify-content: flex-end;
 }
