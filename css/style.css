@@ -808,3 +808,7 @@
   height: 15rem;
   box-shadow: 0 24px 50px rgba(0, 0, 0, 0.1);
 }
+.copy-right-footer {
+  font-size: 1.6rem;
+  color: #0e1133;
+}

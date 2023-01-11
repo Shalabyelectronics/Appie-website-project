@@ -28,7 +28,7 @@ we used 18px too much so we can consider it our standard
 
 - body: 
 - primary : #0e1133 - #262947
-- Tiints : #eef1f6 - #f0f1f7 - #eef4fe- #5c8ff7
+- Tiints : #eef1f6 - #f0f1f7 - #eef4fe- #5c8ff7 -#565870
 - Shades :
  # 
  #
@@ -104,10 +104,6 @@ html {
   transition: all 0.3s;
 }
 
-.link:hover,
-.link:active {
-}
-
 .container {
   /* 1140px we can use it also */
   max-width: 120rem;
@@ -121,7 +117,9 @@ html {
   /* align-items: center; */
   /* column-gap: 2.4rem; */
 }
-
+.grid--1 {
+  grid-template-columns: 1fr;
+}
 .grid--2 {
   grid-template-columns: repeat(2, 1fr);
 }
@@ -176,8 +174,12 @@ input:focus {
   background-color: #eef1f6;
   padding: 8.5rem 0 6.4rem 0;
 }
+.grid-footer-box {
+  gap: 9.6rem;
+}
 .grid-footer {
   grid-template-columns: 2fr 1fr 1fr 2fr;
+  gap: 4.8rem;
 }
 .footer-logo {
   display: block;
@@ -227,7 +229,118 @@ input:focus {
   color: #575971;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
-/* .social-icon {
-  font-size: 1.6rem;
+/* Nav column */
+.nav-col:nth-child(2) {
+  justify-self: end;
+}
+.nav-col:nth-child(3) {
+  justify-self: start;
+}
+.footer-heading {
+  font-size: 2rem;
+  font-weight: 600;
   color: #0f1234;
-} */
+  padding-top: 0.8rem;
+  margin-bottom: 3.2rem;
+}
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  display: block;
+  color: #0f1234;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+.address-icon.envelope:before {
+  content: "\f0e0";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+.address-icon.phone:before {
+  content: "\f879";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+.address-icon.location:before {
+  content: "\f3c5";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+.footer-link:hover,
+.footer-link:active {
+  color: #575971;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.address-data li {
+  display: flex;
+  flex-shrink: 0;
+  gap: 0.8rem;
+}
+.address-data li i {
+  font-size: 1.8rem;
+  color: #0f1234;
+}
+.contact-us {
+  max-width: 80%;
+}
+.footer-sep {
+  border-top: 0.3px solid #cccaca;
+}
+.footer-end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-app-download {
+  display: flex;
+  gap: 3.2rem;
+}
+.footer-app-download a {
+  display: block;
+}
+.footer-app-btn:link,
+.footer-app-btn:visited {
+  border-radius: 11px;
+  font-size: 2rem;
+  color: #0f1234;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.8rem 1.6rem;
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.footer-app-icon {
+  font-size: 2.4rem;
+}
+
+.footer-app-download .footer-app-btn:first-child:link,
+.footer-app-download .footer-app-btn:first-child:visited {
+  background-color: #fff;
+}
+.footer-app-download .footer-app-btn:first-child:hover,
+.footer-app-download .footer-app-btn:first-child:active {
+  background: none;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.455);
+}
+/* Android Icon */
+.footer-app-download .footer-app-btn:last-child:link,
+.footer-app-download .footer-app-btn:last-child:visited {
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.455);
+}
+.footer-app-download .footer-app-btn:last-child:hover,
+.footer-app-download .footer-app-btn:last-child:active {
+  background-color: #fff;
+  box-shadow: none;
+}
