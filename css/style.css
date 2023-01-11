@@ -11,17 +11,19 @@
 /* ***************************** */
 /* HERO SECTION */
 /* ***************************** */
-.section_hero {
+.section-hero {
   background-color: #eef1f6;
   /* padding-left: 9.6rem; */
-  padding-top: 9.6rem;
-
-  /* height: 100vh; */
+  padding-top: 4.8rem 9.6rem;
+  display: flex;
+  justify-content: flex-end;
 }
 .hero {
-  grid-template-columns: 30fr 70fr;
-  max-width: 150rem;
-  margin-left: auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 130rem;
+
+  /* margin-left: auto; */
   /* background-color: #2facfc; */
   /* gap: 9.6rem; */
 }
