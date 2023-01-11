@@ -12,28 +12,19 @@
 }
 .hero {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  max-width: 130rem;
-
-  /* margin-left: auto; */
-  /* background-color: #2facfc; */
-  /* gap: 9.6rem; */
+  grid-template-columns: 1fr 1fr;
+  max-width: 160rem;
 }
 .hero-text-box {
-  /* padding-right: 1rem; */
-  /* align-self: center; */
   padding: 3.2rem 0;
 }
-.hero-text-container {
-  /* background-color: #32c36a; */
-}
+
 .hero-description {
   margin-bottom: 4.8rem;
   color: #0e1133;
 }
-
 .hero-img {
-  width: 100%;
+  width: 110%;
 }
 /* SUBSCRIPTION INPUT  */
 .subscription-box {
