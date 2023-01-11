@@ -8,6 +8,12 @@
   margin-bottom: 12.8rem;
 }
 
+/* Header Icon */
+.chevron-down-icon {
+  font-family: "Font Awesome 5 Free";
+  font-size: 0.8rem;
+  font-weight: 900;
+}
 /* ***************************** */
 /* HERO SECTION */
 /* ***************************** */
