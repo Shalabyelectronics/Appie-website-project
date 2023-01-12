@@ -1,0 +1,18 @@
+/* ***************************** */
+/* BELOW 1344PX (Smaller Desktop)*/
+/* ***************************** */
+
+@media (max-width: 83.125em) {
+  form {
+    max-width: 60%;
+  }
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+  .heading-secondary {
+    font-size: 3.2rem;
+  }
+  .footer-heading {
+    font-size: 1.8rem;
+  }
+}
