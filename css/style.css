@@ -29,12 +29,16 @@
 .hero-image-box {
   display: flex;
   justify-content: flex-end;
+  position: relative;
 }
 .hero-image-box div {
   max-width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 .hero-img {
   /* It go out side its container */
+  display: block;
   width: 100%;
 }
 /* SUBSCRIPTION V1 INPUT  */
@@ -470,7 +474,7 @@ form button i:hover {
   gap: 0.8rem;
 }
 .appie-store {
-  width: 11rem;
+  width: 12rem;
   height: 6rem;
   display: flex;
   justify-content: center;
@@ -738,6 +742,17 @@ form button i:hover {
 /* *************** */
 .section-feature-in {
   margin-bottom: 15rem;
+}
+.section-feature-in .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feature-in-heading {
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .feature-in-logos-box {
   /* background-color: #32c36a; */

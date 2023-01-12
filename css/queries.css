@@ -12,7 +12,13 @@
   .heading-secondary {
     font-size: 3.2rem;
   }
+  .main-description {
+    font-size: 1.8rem;
+  }
   .footer-heading {
     font-size: 1.8rem;
+  }
+  .section-testimonial {
+    margin-bottom: 29rem;
   }
 }
