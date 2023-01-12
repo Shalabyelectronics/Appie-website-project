@@ -26,12 +26,20 @@
   margin-bottom: 4.8rem;
   color: #0e1133;
 }
+.hero-image-box {
+  display: flex;
+  justify-content: flex-end;
+}
+.hero-image-box div {
+  max-width: 100%;
+}
 .hero-img {
-  width: 110%;
+  /* It go out side its container */
+  width: 100%;
 }
 /* SUBSCRIPTION INPUT  */
 .subscription-box {
-  max-width: 40%;
+  max-width: 50%;
   background-color: #fff;
   padding: 0.8rem 1.6rem;
   border-radius: 2.4rem;
@@ -60,10 +68,10 @@
   color: #ff7894;
 }
 .input-mail {
-  display: block;
+  display: inline-block;
   border: none;
   background-color: #fff;
-  padding: 0.8rem 0.5rem;
+  padding: 0.8rem;
   border-radius: 2.4rem;
   font-size: 1.8rem;
   margin-right: auto;
@@ -113,7 +121,6 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-bottom: 4.8rem;
 }
 
 .how-description {
@@ -131,12 +138,12 @@
   align-items: center;
   justify-content: center;
   gap: 2.4rem;
+  padding: 9.6rem 0;
 }
 .how-feature {
   padding: 1.6rem;
   border-radius: 11px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.075);
-  margin-bottom: 6.4rem;
 }
 .icon-feature-box {
   display: flex;
@@ -307,13 +314,16 @@
 .statistics-section {
   margin-bottom: 19.6rem;
 }
+.statistics-section .heading-statistics {
+  margin-bottom: 6.4rem;
+}
 .statistics-data {
   display: flex;
   justify-content: space-around;
 }
 .statistics-media {
+  grid-template-columns: 2fr 1fr;
   gap: 3.2rem;
-  /* justify-content: center; */
 }
 .statistics-heading {
   margin-bottom: 12.8rem;
@@ -332,22 +342,11 @@
 .statistics-data {
   margin-bottom: 10rem;
 }
-.statistics-video,
-.statistics-image-box {
-  margin-bottom: 2.4rem;
-}
-.statistics-video-thumb {
-  /* width: 100%;
-  height: 100%; */
+.statistics-video-thumb,
+.statistics-image {
+  width: 100%;
 }
 
-.statistics-image {
-  /* display: block;
-  height: 100%; */
-  /* margin-left: auto; */
-}
-.statistics-image-box {
-}
 .statistics-media-description {
   margin-bottom: 3.2rem;
 }
@@ -418,8 +417,8 @@
 /* *************** */
 .downloads-section {
   background-color: #eef1f6;
-  padding: 16.8rem 9.6rem;
-  margin: 19.6rem;
+  padding: 9.6rem;
+  margin-bottom: 9.6rem;
 }
 .downloads-box {
   max-width: 45%;
