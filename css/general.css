@@ -82,6 +82,7 @@ html {
 /* ***************************** */
 .header {
   background-color: #eef1f6;
+  position: relative;
   padding: 0 4.8rem;
   height: 9.6rem;
   display: flex;
@@ -116,9 +117,6 @@ html {
   color: #565870;
 }
 
-.mobile-nav {
-  display: none;
-}
 .cta-mobile-nav {
   display: flex;
   align-items: center;
@@ -142,6 +140,24 @@ html {
 .cta-btn:active {
   background-color: #ff7894;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+/* MOBILE NAVIGATION  */
+.mobile-nav {
+  display: none;
+}
+.checkbox {
+  position: absolute;
+  display: block;
+  height: 32px;
+  width: 32px;
+  top: 42px;
+  right: 48px;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  opacity: 0;
+  /* background-color: #0e1133; */
+  cursor: pointer;
 }
 
 .heading-primary,
