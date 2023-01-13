@@ -76,6 +76,9 @@
   .hero-text-box {
     padding: 0;
   }
+  .app-users {
+    transform: translateY(48px);
+  }
   .hero-img {
     width: 50%;
   }
@@ -87,5 +90,6 @@
   }
   form {
     max-width: 85;
+    margin-bottom: 0;
   }
 }
