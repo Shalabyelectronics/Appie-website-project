@@ -22,3 +22,15 @@
     margin-bottom: 29rem;
   }
 }
+/* ***************************** */
+/* BELOW 1200PX (Landscape Tablets)*/
+/* ***************************** */
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .section-hero {
+    margin-bottom: 10rem;
+  }
+}

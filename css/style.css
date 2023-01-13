@@ -660,7 +660,7 @@ form button i:hover {
   border-bottom-left-radius: 20px;
 }
 /* *************** */
-/* TESTIMONIAL SECTION */
+/* TESTIMONIAL SECTION v1*/
 /* *************** */
 .section-testimonial {
   margin-bottom: 30rem;
@@ -674,6 +674,7 @@ form button i:hover {
 }
 .testimonial-background {
   position: absolute;
+  width: 100%;
   z-index: -2;
 }
 
@@ -737,6 +738,7 @@ form button i:hover {
 .reviews-slid-control .slide-btn .arrow-icon {
   color: #fff;
 }
+
 /* *************** */
 /* FEATURE-IN SECTION */
 /* *************** */
