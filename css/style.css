@@ -745,8 +745,9 @@ form button i:hover {
 .section-feature-in {
   margin-bottom: 15rem;
 }
-.section-feature-in .container {
+.feature-in-container {
   display: flex;
+  padding: 0 3.2rem;
   flex-direction: column;
   align-items: center;
 }
@@ -757,8 +758,6 @@ form button i:hover {
   align-items: center;
 }
 .feature-in-logos-box {
-  /* background-color: #32c36a; */
-
   /* Try with flex */
   display: flex;
   flex-direction: column;
@@ -785,8 +784,8 @@ form button i:hover {
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-  width: 15rem;
-  height: 15rem;
+  width: 12rem;
+  height: 12rem;
   box-shadow: 0 24px 50px rgba(0, 0, 0, 0.1);
 }
 .copy-right-footer {
