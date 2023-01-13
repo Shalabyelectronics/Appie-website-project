@@ -77,6 +77,9 @@ html {
   /* That equal to 10px */
   font-family: "Roboto", sans-serif;
 }
+body {
+  position: relative;
+}
 /* ***************************** */
 /* HEADER */
 /* ***************************** */
@@ -87,6 +90,8 @@ html {
   height: 9.6rem;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  /* background-color: aqua; */
 }
 
 /* Header Icon */
@@ -122,18 +127,19 @@ html {
   align-items: center;
   gap: 2.4rem;
   margin-left: auto;
+  /* background-color: #ff7894; */
 }
 /* Get Started Button */
 .cta-btn:link,
 .cta-btn:visited {
   display: block;
-
   font-size: 1.6rem;
   background-color: #ff3e66;
   color: #fff;
-  padding: 0.8rem;
+  padding: 1.2rem;
   border-radius: 25px;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+  transform: translateX(-20px);
 }
 
 .cta-btn:hover,
@@ -145,19 +151,6 @@ html {
 /* MOBILE NAVIGATION  */
 .mobile-nav {
   display: none;
-}
-.checkbox {
-  position: absolute;
-  display: block;
-  height: 32px;
-  width: 32px;
-  top: 42px;
-  right: 48px;
-  transform: translate(-50%, -50%);
-  z-index: 5;
-  opacity: 0;
-  /* background-color: #0e1133; */
-  cursor: pointer;
 }
 
 .heading-primary,
