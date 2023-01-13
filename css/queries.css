@@ -64,11 +64,9 @@
   }
   .hero {
     grid-template-columns: 1fr;
-    gap: 23rem;
+    gap: 6.4rem;
   }
-  .hero-image-box div {
-    max-width: 45%;
-  }
+
   .hero-text-container .heading-primary {
     max-width: 66%;
   }

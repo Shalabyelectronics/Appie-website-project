@@ -31,11 +31,7 @@
   justify-content: flex-end;
   position: relative;
 }
-.hero-image-box div {
-  max-width: 100%;
-  position: absolute;
-  bottom: 0;
-}
+
 .hero-img {
   /* It go out side its container */
   display: block;
