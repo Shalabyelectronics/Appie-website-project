@@ -227,7 +227,7 @@ input:focus {
   display: block;
 }
 .btn {
-  /* font-family: inherit; */
+  font-family: inherit;
   background: none;
   color: #0f1234;
   padding: 1.6rem 3.2rem;
