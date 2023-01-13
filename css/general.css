@@ -119,12 +119,17 @@ html {
 .mobile-nav {
   display: none;
 }
-
-/* Get Started Button */
-.header .cta-btn:link,
-.header .cta-btn:visited {
-  display: block;
+.cta-mobile-nav {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
   margin-left: auto;
+}
+/* Get Started Button */
+.cta-btn:link,
+.cta-btn:visited {
+  display: block;
+
   font-size: 1.6rem;
   background-color: #ff3e66;
   color: #fff;
@@ -133,8 +138,8 @@ html {
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
 }
 
-.header .cta-btn:hover,
-.header .cta-btn:active {
+.cta-btn:hover,
+.cta-btn:active {
   background-color: #ff7894;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
 }

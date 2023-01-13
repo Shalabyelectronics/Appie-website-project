@@ -61,9 +61,9 @@
   html {
     font-size: 56%;
   }
-  /* .nav {
+  .nav {
     display: none;
-  } */
+  }
   .section-hero {
     margin-bottom: 10rem;
     padding-top: 6.4rem;
@@ -72,7 +72,9 @@
     grid-template-columns: 1fr;
     gap: 0rem;
   }
-
+  .mobile-nav {
+    display: block;
+  }
   .hero-text-container .heading-primary {
     max-width: 66%;
   }
