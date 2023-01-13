@@ -47,37 +47,38 @@
   .design-header {
     padding: 9.6rem 0;
   }
+  .btn {
+    padding: 1rem 2.6rem;
+  }
 }
 /* ***************************** */
-/* BELOW 944PX (Landscape Tablets)*/
+/* BELOW 940PX (Landscape Tablets)*/
 /* ***************************** */
-
-/* 
-.section-hero {
+@media (max-width: 60em) {
+  html {
+    font-size: 56.25%;
+  }
+  .section-hero {
     margin-bottom: 10rem;
     padding-top: 6.4rem;
   }
-
-
-
-
-
-.btn {
-    padding: 0.8rem 2.4rem;
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 23rem;
   }
- 
-  .how-marketing {
-    height: 55rem;
+  .hero-image-box div {
+    max-width: 45%;
+  }
+  .hero-text-container .heading-primary {
+    max-width: 66%;
   }
   .design-content {
     gap: 4.8rem;
   }
- 
   .feature-in-heading {
     max-width: 50%;
   }
-  .footer-app-text {
-    font-size: 1.6rem;
+  form {
+    max-width: 85;
   }
-
-*/
+}
