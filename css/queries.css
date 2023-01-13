@@ -30,6 +30,12 @@
   html {
     font-size: 56.25%;
   }
+  .nav-list-container {
+    gap: 3.2rem;
+  }
+  form {
+    max-width: 70%;
+  }
   .how-features {
     gap: 3.2rem;
   }
@@ -52,13 +58,9 @@
     padding-top: 6.4rem;
   }
 
-  .nav-list-container {
-    gap: 3.2rem;
-  }
 
-  form {
-    max-width: 70%;
-  }
+
+
 
 .btn {
     padding: 0.8rem 2.4rem;
