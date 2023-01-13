@@ -183,7 +183,7 @@ form button i:hover {
 .how-feature {
   padding: 1.6rem;
   border-radius: 11px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.075);
+  box-shadow: 0 0 0 1px #cccaca;
 }
 .icon-feature-box {
   display: flex;
@@ -240,21 +240,21 @@ form button i:hover {
 /* part 2 from how section */
 .how-marketing {
   background-color: #f0f1f7;
-  padding: 5.2rem 6.4rem 0 6.4rem;
-  height: 50rem;
-  overflow: hidden;
-  grid-template-columns: 1fr 2fr;
+  padding: 0 6.4rem;
   gap: 2.4rem;
 }
 .marketing-img-box {
-  /* position: relative; */
+  background-image: url("../img/marketing-img.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
 }
 .marketing-img {
   /* position: absolute; */
 }
 .marketing-text-box {
-  padding-bottom: 2.4rem;
-  padding-top: 2.4rem;
+  padding: 7.6rem 0;
+
   align-self: start;
 }
 .marketing-tag {
