@@ -323,6 +323,10 @@ form button i:hover {
   box-shadow: 0 0 3px rgba(255, 255, 255, 0.261);
   border-radius: 11px;
 }
+.design-img {
+  display: block;
+  width: 100%;
+}
 .dot-icon {
   width: 1.6rem;
   height: 1.6rem;
