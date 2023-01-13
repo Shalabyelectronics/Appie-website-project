@@ -29,11 +29,10 @@
 .hero-image-box {
   display: flex;
   justify-content: flex-end;
-  position: relative;
+  align-items: flex-end;
 }
 
 .hero-img {
-  /* It go out side its container */
   display: block;
   width: 100%;
 }

@@ -21,6 +21,9 @@
   .section-testimonial {
     margin-bottom: 29rem;
   }
+  .hero-img {
+    width: 90%;
+  }
 }
 /* ***************************** */
 /* BELOW 1200PX (Landscape Tablets)*/
@@ -54,9 +57,9 @@
 /* ***************************** */
 /* BELOW 940PX (Landscape Tablets)*/
 /* ***************************** */
-@media (max-width: 60em) {
+@media (max-width: 58.75em) {
   html {
-    font-size: 56.25%;
+    font-size: 56%;
   }
   .section-hero {
     margin-bottom: 10rem;
@@ -64,11 +67,17 @@
   }
   .hero {
     grid-template-columns: 1fr;
-    gap: 6.4rem;
+    gap: 0rem;
   }
 
   .hero-text-container .heading-primary {
     max-width: 66%;
+  }
+  .hero-text-box {
+    padding: 0;
+  }
+  .hero-img {
+    width: 50%;
   }
   .design-content {
     gap: 4.8rem;
