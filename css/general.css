@@ -121,7 +121,7 @@ body {
   color: #0e1133;
   font-weight: 700;
 }
-.nav-list .nav-link {
+.nav-list-desktop .nav-link {
   display: flex;
   align-items: center;
   gap: 0.8rem;
