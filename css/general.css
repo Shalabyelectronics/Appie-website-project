@@ -98,12 +98,16 @@ body {
 /* Header Icon */
 .chevron-down-icon {
   font-family: "Font Awesome 5 Free";
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   font-weight: 900;
 }
-
+.nav {
+  margin-right: auto;
+}
+.logo-link {
+  margin-right: 7.2rem;
+}
 .nav-list-container {
-  margin-left: 3.2rem;
   list-style: none;
   display: flex;
   justify-content: flex-start;
@@ -117,10 +121,14 @@ body {
   color: #0e1133;
   font-weight: 700;
 }
-
+.nav-list .nav-link {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
 .nav-link:hover,
 .nav-link:active {
-  color: #565870;
+  color: #ff3e66;
 }
 
 .cta-mobile-nav {
