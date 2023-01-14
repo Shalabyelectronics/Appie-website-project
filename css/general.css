@@ -143,9 +143,10 @@ body {
 .cta-btn:visited {
   display: block;
   font-size: 1.6rem;
+  font-weight: 700;
   background-color: #ff3e66;
   color: #fff;
-  padding: 1.2rem;
+  padding: 1.6rem;
   border-radius: 25px;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
   transform: translateX(-20px);
@@ -153,8 +154,9 @@ body {
 
 .cta-btn:hover,
 .cta-btn:active {
-  background-color: #ff7894;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+  background: none;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.075);
+  color: #0e1133;
 }
 
 /* MOBILE NAVIGATION  */
