@@ -486,6 +486,9 @@
 /* BELOW 550PX (Landscape Tablets)*/
 /* ***************************** */
 @media (max-width: 34.375em) {
+  html {
+    font-size: 65%;
+  }
   .cta-btn:link,
   .cta-btn:visited {
     padding: 1rem 0.8rem;
@@ -499,5 +502,19 @@
   }
   .design-heading {
     padding: 1.8rem;
+  }
+  .feature-in-row:first-child {
+    max-width: 100%;
+    gap: 1.6rem;
+  }
+  .feature-in-row:last-child {
+    gap: 1.6rem;
+    max-width: 100%;
+  }
+  .statistics-slid-control {
+    display: none;
+  }
+  .feature-in-logo-box {
+    width: 10rem;
   }
 }
