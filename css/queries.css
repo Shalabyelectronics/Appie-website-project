@@ -59,7 +59,7 @@
 /* ***************************** */
 @media (max-width: 58.75em) {
   html {
-    font-size: 56%;
+    font-size: 58%;
   }
   .nav {
     display: none;
@@ -94,7 +94,7 @@
     max-width: 50%;
   }
   form {
-    max-width: 85;
+    max-width: 75%;
     margin-bottom: 0;
   }
   .data-box {
@@ -292,5 +292,32 @@
     grid-column: 2 / span 3;
     grid-row: 2;
     margin-left: 2.4rem;
+  }
+}
+
+/* ***************************** */
+/* BELOW 775PX (Landscape Tablets)*/
+/* ***************************** */
+@media (max-width: 48.4375em) {
+  html {
+    font-size: 60%;
+  }
+  form {
+    max-width: 90%;
+  }
+  .btn {
+    padding: 1.6rem 0.8rem;
+  }
+  .header-how {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 4.8rem;
+  }
+  .how-features {
+    grid-template-columns: 1fr;
+  }
+  .how-marketing {
+    grid-template-columns: 1fr;
   }
 }
