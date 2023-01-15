@@ -465,8 +465,8 @@ form button i:hover {
   gap: 0.8rem;
 }
 .appie-store {
-  width: 12rem;
-  height: 6rem;
+  width: 35%;
+  padding: 1.2rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -482,9 +482,8 @@ form button i:hover {
 .appie-store.apple:hover,
 .appie-store.apple:active {
   text-decoration: none;
-  color: #0e1133;
-  box-shadow: inset 0 0 0 1px #0e1133;
-  background-color: #fff;
+  color: #fff;
+  background-color: #ff3e66;
 }
 .appie-store.android:link,
 .appie-store.android:visited {
@@ -498,7 +497,8 @@ form button i:hover {
 .appie-store.android:hover,
 .appie-store.android:active {
   color: #fff;
-  background-color: #0e1133;
+  background-color: #ff3e66;
+  box-shadow: none;
 }
 .logo-icon {
   font-size: 3.2rem;
