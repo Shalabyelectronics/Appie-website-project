@@ -116,20 +116,34 @@ body {
   font-size: 1.6rem;
 }
 
-.nav-link:link,
-.nav-link:visited {
-  color: #0e1133;
-  font-weight: 700;
-}
 .nav-list-desktop .nav-link {
   display: flex;
   align-items: center;
   gap: 0.8rem;
 }
+
+.nav-link:link,
+.nav-link:visited {
+  color: #0e1133;
+  font-weight: 700;
+}
+
 .nav-link:hover,
 .nav-link:active {
   color: #ff3e66;
 }
+
+.nav-link:link i,
+.nav-link:visited i {
+  transition: all 0.2s;
+}
+
+.nav-link:hover i,
+.nav-link:active i {
+  transform: rotate(-90deg);
+}
+
+/* Try this way */
 
 .cta-mobile-nav {
   display: flex;
