@@ -103,6 +103,13 @@
   .appie-store {
     width: 50%;
   }
+  .feature-in-row:first-child {
+    gap: 3.2rem;
+  }
+  .feature-in-row:last-child {
+    gap: 5.2rem;
+  }
+
   .footer-app-btn:link,
   .footer-app-btn:visited {
     border-radius: 8px;

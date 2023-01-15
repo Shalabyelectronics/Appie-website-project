@@ -862,6 +862,12 @@ form button i:hover {
   justify-content: center;
   gap: 4.8rem;
 }
+.feature-in-logo-box img {
+  transition: all 0.3s;
+}
+.feature-in-logo-box:hover img {
+  transform: scale(110%);
+}
 .feature-in-row {
   display: flex;
   justify-content: center;
