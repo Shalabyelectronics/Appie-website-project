@@ -100,6 +100,9 @@
   .data-box {
     padding: 1.6rem 2.4rem;
   }
+  .appie-store {
+    width: 50%;
+  }
   .footer-app-btn:link,
   .footer-app-btn:visited {
     border-radius: 8px;
