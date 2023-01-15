@@ -232,9 +232,7 @@ form button i:hover {
   background-position: top;
   background-size: 100%;
 }
-.marketing-img {
-  /* position: absolute; */
-}
+
 .marketing-text-box {
   padding: 7.6rem 0;
 
@@ -730,14 +728,17 @@ form button i:hover {
   display: flex;
   gap: 1.2rem;
 }
-.reviews-slid-control .slide-btn {
-  background: none;
-  border: 0.5px solid #b1b0b0;
+.test-btn {
+  box-shadow: 0 0 0 1px rgba(235, 235, 235, 0.685);
 }
-.reviews-slid-control .slide-btn .arrow-icon {
+.test-btn .arrow-icon {
   color: #fff;
 }
 
+.test-btn:hover .arrow-icon {
+  color: #fff;
+  transform: scale(120%);
+}
 /* *************** */
 /* FEATURE-IN SECTION */
 /* *************** */
