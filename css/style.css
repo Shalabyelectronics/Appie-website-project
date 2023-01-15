@@ -579,6 +579,7 @@ form button i:hover {
   bottom: 3px;
   background-color: #ff3e66;
   -webkit-transition: 0.5s;
+
   transition: 0.5s;
 }
 
@@ -611,19 +612,22 @@ form button i:hover {
 }
 /* test */
 .switch input:not(:checked) ~ .slider:after {
-  transform: translateX(-15%);
+  /* transform: translate(-15%); */
+  /* left: 3px; */
+  transform: translateX(100%);
 }
 .switch input:checked ~ .slider:after {
   /* -webkit-transform: translateX(100px);
   -ms-transform: translateX(100px);
   transform: translateX(100px); */
   /* right: calc(100% - 3px); */
-  transform: translateX(100%);
+  /* transform: translateX(100%); */
+  left: 3px;
 }
-.switch input:checked ~ .option p:first-child {
+.switch input:not(:checked) ~ .option p:first-child {
   color: #0e1133;
 }
-.switch input:checked ~ .option p:last-child {
+.switch input:not(:checked) ~ .option p:last-child {
   color: #fff;
 }
 /* Rounded sliders */
