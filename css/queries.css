@@ -208,6 +208,20 @@
 /* BELOW 920PX (Landscape Tablets)*/
 /* ***************************** */
 @media (max-width: 57.5em) {
+  html {
+    font-size: 60%;
+  }
+  .option p:first-child {
+    color: #fff;
+    padding-left: 12px;
+
+    /* transform: translate(10px); */
+  }
+  .option p:last-child {
+    color: #0e1133;
+    padding-right: 17px;
+    /* transform: translate(60px); */
+  }
   .testimonial-user-card {
     grid-template-columns: 1fr;
     gap: 3.2rem;
@@ -466,5 +480,24 @@
   .footer-end {
     flex-direction: column;
     gap: 3.2rem;
+  }
+}
+/* ***************************** */
+/* BELOW 550PX (Landscape Tablets)*/
+/* ***************************** */
+@media (max-width: 34.375em) {
+  .cta-btn:link,
+  .cta-btn:visited {
+    padding: 1rem 0.8rem;
+    transform: translateY(-12.5px);
+  }
+  .hero-img {
+    transform: translateX(-15px);
+  }
+  .downloads-section {
+    padding: 5.2rem 2.5rem;
+  }
+  .design-heading {
+    padding: 1.8rem;
   }
 }
