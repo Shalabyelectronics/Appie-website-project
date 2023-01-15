@@ -439,4 +439,32 @@
     gap: 1.6rem;
     max-width: 80%;
   }
+
+  .grid-footer-box {
+    gap: 3.2rem;
+  }
+  .grid-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .address,
+  .contact-us,
+  .nav-col,
+  .logo-col {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-us ul,
+  .nav-col ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-end {
+    flex-direction: column;
+    gap: 3.2rem;
+  }
 }

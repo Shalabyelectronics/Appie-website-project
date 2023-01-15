@@ -1,12 +1,12 @@
 {
   "icons": [
     {
-      "src": "./img/‏‏‏‏favicon-192.png",
+      "src": "./img/appie icon192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "./img/‏‏‏‏favicon-512.png",
+      "src": "./img/appie-icon512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
