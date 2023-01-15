@@ -770,6 +770,7 @@ form button i:hover {
 .testimonial-background {
   position: absolute;
   width: 100%;
+
   z-index: -2;
 }
 
