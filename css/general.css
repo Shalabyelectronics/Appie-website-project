@@ -133,7 +133,7 @@ body {
   color: #ff3e66;
 }
 
-.nav-link:link i,
+/* .nav-link:link i,
 .nav-link:visited i {
   transition: all 0.2s;
 }
@@ -141,7 +141,7 @@ body {
 .nav-link:hover i,
 .nav-link:active i {
   transform: rotate(-90deg);
-}
+} */
 
 /* Try this way */
 
@@ -257,12 +257,27 @@ input:focus {
   font-family: inherit;
   background: none;
   color: #0f1234;
+  border: none;
   padding: 1.6rem 3.2rem;
   font-size: 1.6rem;
   font-weight: 500;
   border-radius: 30px;
-  border: 1px solid #cccaca;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.3);
   cursor: pointer;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: #ff3e66;
+  color: #fff;
+  box-shadow: none;
+}
+.slide-btn {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  background: none;
+  border: none;
+  transition: all 0.3s;
 }
 .title {
   font-size: 2rem;

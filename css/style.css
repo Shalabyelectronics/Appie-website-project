@@ -157,14 +157,6 @@ form button i:hover {
   align-items: flex-end;
 }
 
-.how-btn {
-  transition: all 0.3s;
-}
-.how-btn:hover {
-  border: 1px solid #cccaca;
-  color: #575971;
-  box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.05);
-}
 .how-features {
   align-items: center;
   justify-content: center;
@@ -387,15 +379,19 @@ form button i:hover {
 .statistics-media-description {
   margin-bottom: 3.2rem;
 }
-.slide-btn {
-  width: 4.8rem;
-  height: 4.8rem;
-  border-radius: 50%;
-  background-color: #fff;
-  color: #777;
-  border: 1px solid #777;
+.sta-arrow {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3);
 }
-.slide-btn .arrow-icon {
+.sta-arrow:hover {
+  background-color: #ff3e66;
+  color: #fff;
+  box-shadow: none;
+}
+.sta-arrow:hover .arrow-icon {
+  color: #fff;
+  transform: scale(120%);
+}
+.sta-arrow .arrow-icon {
   font-size: 2rem;
   color: #333;
 }
@@ -553,7 +549,7 @@ form button i:hover {
 }
 .monthly-option .duration-text {
   color: #fff;
-  background-color: #ea4d89;
+  background-color: #ff3e66;
   border-radius: 50px;
   padding: 1rem 2rem;
 }
@@ -639,9 +635,14 @@ form button i:hover {
   box-shadow: 0 24px 20px rgba(0, 0, 0, 0.075);
 }
 .price-option-box:nth-child(2) .btn {
-  border: none;
-  background-color: #ea4d89;
+  box-shadow: none;
+  background-color: #ff3e66;
   color: #fff;
+}
+.price-option-box:nth-child(2) .btn:hover {
+  background: none;
+  color: #0f1234;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
 }
 .price-option-box:nth-child(2)::after {
   content: "Most Popular";
@@ -656,6 +657,7 @@ form button i:hover {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
+
 /* *************** */
 /* TESTIMONIAL SECTION v1*/
 /* *************** */
