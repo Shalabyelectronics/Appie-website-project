@@ -222,9 +222,13 @@ form button i:hover {
 }
 /* part 2 from how section */
 .how-marketing {
+  position: relative;
+  grid-template-columns: 1fr 1fr;
   background-color: #f0f1f7;
   padding: 0 6.4rem;
-  gap: 2.4rem;
+  /* align-items: center; */
+  gap: 1.6rem;
+  overflow: hidden;
 }
 .marketing-img-box {
   background-image: url("../img/marketing-img.png");
@@ -232,7 +236,12 @@ form button i:hover {
   background-position: top;
   background-size: 100%;
 }
-
+.marketing-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+}
 .marketing-text-box {
   padding: 7.6rem 0;
 
