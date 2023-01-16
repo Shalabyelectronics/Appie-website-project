@@ -59,7 +59,7 @@
 /* ***************************** */
 @media (max-width: 58.75em) {
   html {
-    font-size: 58%;
+    font-size: 54%;
   }
   .nav {
     display: none;
@@ -209,7 +209,7 @@
 /* ***************************** */
 @media (max-width: 57.5em) {
   html {
-    font-size: 60%;
+    font-size: 50%;
   }
   .option p:first-child {
     color: #fff;
@@ -486,9 +486,6 @@
 /* BELOW 550PX (Landscape Tablets)*/
 /* ***************************** */
 @media (max-width: 34.375em) {
-  html {
-    font-size: 60%;
-  }
   .cta-btn:link,
   .cta-btn:visited {
     padding: 1rem 0.8rem;
@@ -521,5 +518,8 @@
   }
   form {
     max-width: 80%;
+  }
+  .how-marketing {
+    padding: 0 1.6rem;
   }
 }
