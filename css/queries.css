@@ -343,8 +343,8 @@
   }
   .statistics-data {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2.4rem;
+    grid-template-columns: 1fr;
+    gap: 3.2rem;
   }
   .statistics-media {
     grid-template-columns: 1fr;
