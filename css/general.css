@@ -186,13 +186,13 @@ body {
 
 /* Try this way */
 
-.cta-mobile-nav {
+/* .hamburger-lines {
   display: flex;
   align-items: center;
   gap: 2.4rem;
   margin-left: auto;
-  /* background-color: #ff7894; */
-}
+  background-color: #ff7894;
+} */
 /* Get Started Button */
 .cta-btn:link,
 .cta-btn:visited {

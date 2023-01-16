@@ -72,9 +72,9 @@
     grid-template-columns: 1fr;
     gap: 0rem;
   }
-  .mobile-nav {
+  /* .mobile-nav {
     display: block;
-  }
+  } */
   .hero-text-container .heading-primary {
     max-width: 66%;
   }
@@ -130,7 +130,7 @@
     right: 0;
     transform: translate(-50%, -50%);
     z-index: 5;
-    opacity: 0;
+    opacity: 1;
     background-color: #0e1133;
     cursor: pointer;
   }
@@ -143,10 +143,8 @@
     top: 40px;
     right: 0;
     z-index: 3;
-
     display: flex;
     align-items: center;
-
     transform: translate(-50%, -50%);
   }
 
