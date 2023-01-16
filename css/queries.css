@@ -517,8 +517,13 @@
     font-size: 55%;
   }
   .feature-in-logo-box {
-    width: 5rem;
-    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3rem;
+    width: 8rem;
+    height: 8rem;
+    box-shadow: 0 24px 50px rgba(0, 0, 0, 0.1);
   }
   .feature-in-logo-box img {
     width: 50%;
