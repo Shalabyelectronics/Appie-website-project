@@ -313,6 +313,13 @@
     grid-template-columns: 1fr;
     justify-items: center;
   }
+  .how-feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
   .how-marketing {
     grid-template-columns: 1fr;
   }
