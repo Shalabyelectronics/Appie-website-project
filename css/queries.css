@@ -280,8 +280,8 @@
     background-color: rgba(250, 61, 99, 0.808);
     transition: 0.3s ease;
   }
-  .menu li + li {
-    /* margin-top: 3.2rem; */
+  .dropdown {
+    top: 45px;
   }
   input[type="checkbox"]:checked ~ .menu {
     display: flex;
