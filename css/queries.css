@@ -236,6 +236,55 @@
   .btn {
     padding: 1.6rem 0.8rem;
   }
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.466);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 1.6rem 0;
+  }
+  .icon-mobile-nav {
+    display: block;
+    width: 4.8rem;
+    height: 4.8rem;
+    color: #333;
+    transition: all 0.3s ease;
+  }
+  .icon-mobile-nav:last-child {
+    display: none;
+  }
+  input[type="checkbox"]:checked ~ .hamburger .icon-mobile-nav:last-child {
+    display: block;
+  }
+  input[type="checkbox"]:checked ~ .hamburger .icon-mobile-nav:first-child {
+    display: none;
+  }
+  .menu li:hover {
+    display: inline-block;
+    background-color: rgba(250, 61, 99, 0.808);
+    transition: 0.3s ease;
+  }
+  .menu li + li {
+    margin-top: 1.2rem;
+  }
+  input[type="checkbox"]:checked ~ .menu {
+    display: block;
+  }
+  .hamburger {
+    display: block;
+  }
+  .dropdown {
+    left: 50%;
+    top: 30px;
+    transform: translateX(35%);
+  }
+  .dropdown li:hover {
+    background-color: #ff3e66;
+  }
   .header-how {
     text-align: center;
     flex-direction: column;
