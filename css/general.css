@@ -127,7 +127,7 @@ body {
 /* ***************************** */
 .header {
   background-color: #eef1f6;
-  position: relative;
+  /* position: relative; */
   padding: 0 4.8rem;
   height: 9.6rem;
   display: flex;
