@@ -94,7 +94,7 @@
     max-width: 50%;
   }
   form {
-    max-width: 75%;
+    max-width: 50%;
     margin-bottom: 0;
   }
   .data-box {
@@ -314,10 +314,10 @@
 /* ***************************** */
 @media (max-width: 48.4375em) {
   html {
-    font-size: 70%;
+    font-size: 60%;
   }
   form {
-    max-width: 90%;
+    max-width: 80%;
   }
   .btn {
     padding: 1.6rem 0.8rem;
@@ -520,6 +520,6 @@
     height: 3.5rem;
   }
   form {
-    max-width: 91%;
+    max-width: 80%;
   }
 }
