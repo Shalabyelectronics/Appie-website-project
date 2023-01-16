@@ -310,7 +310,7 @@
     gap: 4.8rem;
   }
   .how-features {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .how-marketing {
     grid-template-columns: 1fr;
@@ -342,7 +342,7 @@
   }
   .statistics-data {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 2.4rem;
   }
   .statistics-media {
