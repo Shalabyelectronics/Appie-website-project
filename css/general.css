@@ -76,6 +76,7 @@ html {
   font-size: 62.5%;
   /* That equal to 10px */
   font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
 }
 body {
   position: relative;
