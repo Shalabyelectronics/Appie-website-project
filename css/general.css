@@ -81,7 +81,12 @@ body {
   position: relative;
   overflow-x: hidden;
 }
-
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #e67e22; */
+  /* outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem rgba(255, 62, 101, 0.192);
+}
 /* ***************************** */
 /* HEADER */
 /* ***************************** */
@@ -277,6 +282,7 @@ input:focus {
   height: 4.8rem;
   border-radius: 50%;
   background: none;
+  cursor: pointer;
   border: none;
   transition: all 0.3s;
 }
