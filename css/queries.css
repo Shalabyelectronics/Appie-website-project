@@ -512,10 +512,11 @@
   .feature-in-logo-box {
     width: 10rem;
   }
-  .user-img {
+  /* Test remove user dimenion */
+  /* .user-img {
     width: 3.5rem;
     height: 3.5rem;
-  }
+  } */
   form {
     max-width: 80%;
   }
