@@ -88,6 +88,40 @@ body {
   /* outline-offset: 8px; */
   box-shadow: 0 0 0 0.8rem rgba(255, 62, 101, 0.192);
 }
+
+.top .top-icon {
+  display: block;
+  width: 3.2rem;
+  height: 3.2rem;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.top:link,
+.top:visited {
+  position: fixed;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 62, 101, 0.158);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.199);
+  bottom: 40px;
+  right: 50px;
+  border-radius: 11px;
+  /* padding: 1rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+.top:hover,
+.top:active {
+  background: rgba(255, 62, 101, 0.671);
+}
+.top:hover .top-icon,
+.top:active .top-icon {
+  transform: scale(110%);
+}
 /* ***************************** */
 /* HEADER */
 /* ***************************** */
