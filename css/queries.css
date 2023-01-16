@@ -395,7 +395,7 @@
   }
   .pricing-options {
     grid-template-columns: 1fr;
-    justify-items: stretch;
+    justify-items: center;
   }
   .price-option-box:nth-child(1) {
     grid-column: 1;
