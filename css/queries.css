@@ -513,10 +513,10 @@
     width: 10rem;
   }
   /* Test remove user dimenion */
-  /* .user-img {
-    width: 3.5rem;
-    height: 3.5rem;
-  } */
+  .user-img {
+    width: 4.2rem;
+    height: 4.2rem;
+  }
   form {
     max-width: 80%;
   }
