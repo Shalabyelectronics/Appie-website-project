@@ -1,0 +1,156 @@
+<!-- My version 1 of nav bar structure -->
+<!-- For mobile version -->
+<!-- <div class="-cta-mobile-nav">
+      <div class="mobile-nav">
+        <input class="checkbox" type="checkbox" />
+        <div class="hamburger-lines">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </div>
+        <ul class="menu-items">
+          <li class="nav-list-mobile">
+            <a class="link nav-link" href="#how">How it works </a>
+          </li>
+          <li class="nav-list">
+            <a class="link nav-link" href="#download">Downloads</a>
+          </li>
+          <li class="nav-list">
+            <a class="link nav-link" href="#price">Pricing </a>
+          </li>
+          <li class="nav-list">
+            <a class="link nav-link" href="#testimonials">Testimonials </a>
+          </li>
+          <li class="nav-list">
+            <a class="link nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div> -->
+
+<!-- Desktop VERsion -->
+<a class="logo-link" href="#">
+  <img class="logo" src="./img/logo.png" alt="Appie logo" />
+</a>
+<nav class="nav">
+  <!-- <input class="checkbox" type="checkbox" />
+  <div class="hamburger-lines">
+    <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+    <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+  </div> -->
+  <ul class="nav-list-container">
+    <li class="nav-list-desktop">
+      <a class="link nav-link" href="#how"
+        >How it works
+        <i class="chevron-down-icon fa-light fa-chevron-down"></i>
+      </a>
+    </li>
+    <li class="nav-list-desktop">
+      <a class="link nav-link" href="#download">Downloads</a>
+    </li>
+    <li class="nav-list-desktop">
+      <a class="link nav-link" href="#price"
+        >Pricing
+        <i class="chevron-down-icon fa-light fa-chevron-down"></i>
+      </a>
+    </li>
+    <li class="nav-list-desktop">
+      <a class="link nav-link" href="#testimonials"
+        >Testimonials <i class="chevron-down-icon fa-light fa-chevron-down"></i
+      ></a>
+    </li>
+    <li class="nav-list-desktop">
+      <a class="link nav-link" href="#contact">Contact</a>
+    </li>
+  </ul>
+</nav>
+<a class="cta-btn link" href="#">Get Started</a>
+<!-- ******************* -->
+<!-- CSS -->
+<!-- ******************* -->
+<style>
+  /* inside the max-width 940px */
+  /* .mobile-nav {
+    display: block;
+  } */
+  /* Mobile nav */
+
+  .checkbox {
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 32px;
+    top: 42px;
+    right: 0;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    opacity: 1;
+    background-color: #0e1133;
+    cursor: pointer;
+  }
+
+  .hamburger-lines {
+    display: block;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    transform: translate(-50%, -50%);
+  }
+
+  .icon-mobile-nav {
+    width: 4.8rem;
+    height: 4.8rem;
+    color: #333;
+  }
+  .icon-mobile-nav:last-child {
+    display: none;
+  }
+
+  .menu-items {
+    list-style: none;
+    position: absolute;
+    box-shadow: inset 0 0 200rem rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.815);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    transform: translate(150%);
+    z-index: 2;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 4.8rem;
+    transition: all 0.5s ease-in;
+  }
+  .menu-items li .nav-link:link,
+  .menu-items li .nav-link:visited {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  .menu-items li .nav-link:hover,
+  .menu-items li .nav-link:active {
+    color: #ff3e66;
+  }
+
+  input[type="checkbox"]:checked ~ .menu-items {
+    transform: translate(0);
+  }
+
+  input[type="checkbox"]:checked
+    ~ .hamburger-lines
+    .icon-mobile-nav:last-child {
+    display: block;
+  }
+  input[type="checkbox"]:checked
+    ~ .hamburger-lines
+    .icon-mobile-nav:first-child {
+    display: none;
+  }
+</style>
