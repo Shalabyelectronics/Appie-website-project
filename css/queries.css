@@ -492,11 +492,9 @@
   .cta-btn:link,
   .cta-btn:visited {
     padding: 1rem 0.8rem;
-    transform: translateY(-12.5px);
+    transform: translateX(-25px);
   }
-  .hero-img {
-    transform: translateX(-15px);
-  }
+
   .downloads-section {
     padding: 5.2rem 2.5rem;
   }
