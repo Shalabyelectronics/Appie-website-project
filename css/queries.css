@@ -312,6 +312,7 @@
   }
   .hamburger {
     display: block;
+    cursor: pointer;
   }
   .nav-links {
     grid-column: 3;
