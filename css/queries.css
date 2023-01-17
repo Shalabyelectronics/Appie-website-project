@@ -290,6 +290,26 @@
     /* justify-content: center; */
     gap: 3.2rem;
   }
+
+  .pages a,
+  .news a,
+  .home a {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+  .pages a i,
+  .news a i,
+  .home a i {
+    transition: all 0.3s;
+  }
+
+  .pages:hover a i,
+  .news:hover a i,
+  .home:hover a i {
+    display: inline-block;
+    transform: rotate(-90deg);
+  }
   .hamburger {
     display: block;
   }
@@ -342,6 +362,7 @@
   .design-content {
     grid-template-columns: 1fr;
     justify-items: center;
+
     gap: 4.8rem;
   }
   .design-text-box {
