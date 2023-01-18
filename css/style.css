@@ -443,19 +443,15 @@ form button i:hover {
 }
 .play-icon-bottom-border {
   position: absolute;
-  width: 63px;
-  height: 63px;
+  width: 65px;
+  height: 65px;
 
   border-top-color: transparent;
-  border-bottom: 1px solid #fff;
-  /* border-bottom-color: transparent; */
+  border: 1px solid transparent;
+  border-bottom-color: #fff;
   border-radius: 50%;
   top: 50%;
   left: 50%;
-  /* border: 1px solid #fff;
-  border-left: transparent;
-  border-top: transparent;
-  border-right: transparent; */
   transform: translate(-50%, -50%);
 }
 .play-icon {
