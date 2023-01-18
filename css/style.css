@@ -131,8 +131,18 @@ form button i:hover {
   margin-right: -1.6rem;
   border: 3px solid #fff;
 }
+.user-img:first-child {
+  z-index: 4;
+}
+.user-img:nth-child(2) {
+  z-index: 3;
+}
+.user-img:nth-child(3) {
+  z-index: 2;
+}
 .user-img:last-child {
   margin: 0;
+  z-index: 1;
 }
 .users-text-box {
   font-weight: 500;
