@@ -574,8 +574,8 @@
 /* ***************************** */
 /* BELOW 410PX (Landscape Tablets)*/
 /* ***************************** */
-@media (max-width: 25.625em) {
+@media (max-width: 25em) {
   html {
-    font-size: 53%;
+    font-size: 50%;
   }
 }
