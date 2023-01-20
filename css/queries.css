@@ -240,17 +240,24 @@
   }
   .menu {
     display: none;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.2rem;
     position: absolute;
     background-color: rgba(255, 255, 255, 0.466);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(10px);
-    right: 0;
+    top: 0;
     left: 0;
-    text-align: center;
-    padding-top: 4.8rem;
+    right: 0;
+    bottom: 0;
     font-size: 2.4rem;
+    opacity: 0;
     height: 100vh;
     z-index: 9999;
+    transition: all 100s ease;
   }
 
   .cta-btn {
@@ -266,7 +273,7 @@
     width: 4.8rem;
     height: 4.8rem;
     color: #333;
-    transition: all 0.3s ease;
+    transition: all 0.4s;
   }
   .icon-mobile-nav:last-child {
     display: none;
@@ -280,15 +287,12 @@
   .menu li:hover {
     display: inline-block;
     background-color: rgba(250, 61, 99, 0.808);
-    transition: 0.3s ease;
+    transition: all 0.3s ease-in-out;
   }
 
   input[type="checkbox"]:checked ~ .menu {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* justify-content: center; */
-    gap: 3.2rem;
+    opacity: 1;
   }
 
   .pages a,
@@ -312,7 +316,12 @@
   }
   .hamburger {
     display: block;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    transform: translate(50%, -50%);
     cursor: pointer;
+    z-index: 99999999999;
   }
   .nav-links {
     grid-column: 3;

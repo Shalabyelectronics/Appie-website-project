@@ -604,9 +604,9 @@ form button i:hover {
   left: 16px;
   bottom: 3px;
   background-color: #ff3e66;
-  -webkit-transition: 0.5s;
+  -webkit-transition: all 0.5s;
 
-  transition: 0.5s;
+  transition: all 0.5s;
 }
 
 .switch input:checked + .slider:after {
