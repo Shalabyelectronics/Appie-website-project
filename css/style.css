@@ -578,6 +578,7 @@ form button i:hover {
 }
 
 .switch input {
+  display: none;
   appearance: none;
   width: 0;
   height: 0;
